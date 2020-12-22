@@ -76,7 +76,7 @@ main img {
     margin-top: 2em;
     width: calc(100% + 4em);
     margin-left: -2em;
-    /*max-height: 1099px;*/
+    min-height: 340px;
 }
 
 footer {
@@ -115,6 +115,7 @@ footer p {
     main img {
         margin-top: 1em;
         width: calc(100% + 3em);
+        min-height: 295px;
     }
 
     footer { margin-top: 1em; }
