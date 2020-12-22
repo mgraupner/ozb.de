@@ -79,6 +79,21 @@ main img {
     /*max-height: 1099px;*/
 }
 
+footer {
+    margin-top: 2em;
+}
+footer h3 {
+    font-size: 1.5em;
+    margin-top: 0.3em;
+}
+footer h4 {
+    font-weight: 500;
+    margin: 0.8em 0 0.5em 0;
+}
+footer p {
+    margin-bottom: 0.3em;
+}
+
 @media only screen 
     and (max-device-width: 640px), 
     only screen and (max-device-width: 667px), 
@@ -98,21 +113,9 @@ main img {
         line-height: 1.4em;
     }
     main img {
+        margin-top: 1em;
         width: calc(100% + 3em);
     }
-}
 
-footer {
-    margin-top: 2em;
-}
-footer h3 {
-    font-size: 1.5em;
-    margin-top: 0.3em;
-}
-footer h4 {
-    font-weight: 500;
-    margin: 0.8em 0 0.5em 0;
-}
-footer p {
-    margin-bottom: 0.3em;
+    footer { margin-top: 1em; }
 }
