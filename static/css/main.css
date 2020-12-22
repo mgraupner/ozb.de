@@ -69,6 +69,9 @@ main p {
     max-width: 900px;
     margin-bottom: 0.3em;
 }
+main p a {
+    text-decoration: none;
+}
 main img {
     margin-top: 2em;
     width: calc(100% + 4em);
