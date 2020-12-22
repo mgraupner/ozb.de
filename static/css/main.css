@@ -76,6 +76,7 @@ main img {
     margin-top: 2em;
     width: calc(100% + 4em);
     margin-left: -2em;
+    /*max-height: 1099px;*/
 }
 
 @media (max-width: 600px) {
@@ -84,7 +85,11 @@ main img {
     }
     main p {
         font-size: 1em;
+        line-height: 1.4em;
     }
+    /*main img {*/
+        /*height: unset;*/
+    /*}*/
 }
 
 footer {
