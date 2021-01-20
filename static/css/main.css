@@ -94,6 +94,16 @@ footer p {
     margin-bottom: 0.3em;
 }
 
+.creator {
+    font-weight: normal;
+    color: #A8A8A8;
+}
+.creator a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px #000 dotted;
+}
+
 @media only screen 
     and (max-device-width: 640px), 
     only screen and (max-device-width: 667px), 
