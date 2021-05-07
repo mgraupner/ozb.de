@@ -82,9 +82,17 @@ main img {
 footer {
     margin-top: 2em;
 }
+footer summary {
+    cursor: pointer;
+    padding-top: 1em;
+}
+}
 footer h3 {
     font-size: 1.5em;
     margin-top: 0.3em;
+}
+footer h3.summary-copy {
+    margin-top: 0.5em;
 }
 footer h4 {
     font-weight: 500;
